@@ -6,13 +6,13 @@ import {
   summarizeViaAPI, 
   askQuestionViaAPI, 
   checkAPIHealth 
-} from '@/app/utils/client-api';
+} from '../utils/client-api';
 import { 
   uploadFile, 
   summarizeText, 
   askQuestion, 
   checkBackendHealth 
-} from '@/app//utils/api';
+} from '../utils/api';
 
 export default function APITestComponent() {
   const [file, setFile] = useState<File | null>(null);
